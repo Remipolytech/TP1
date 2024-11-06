@@ -1,6 +1,5 @@
 EXERCICE 1 :
 
-Voici le fichier crée
 
 2 .Le répertoire git. est crée avec plusieurs sous répertoires :
  
@@ -9,7 +8,7 @@ config		hooks		objects
  
 Il y a 7  répertoires supplémentaires. 
 
-4. git status nous donne le status des fichiers que nous avons ( modifié ou suivi depusi le dernier commit ...)
+4. git status nous donne le l'état des fichiers que nous avons ( modifié ou suivi depuis le dernier commit ...)
  
 5. Le fichier que nous avons créé est validé mais pas validé. 
  
@@ -17,10 +16,67 @@ Il y a 7  répertoires supplémentaires.
  
 8. La commande git log –p permet d’avoir un historique des commit réalisée. 
  
-9. La commande git diff nous permet de voir exclusivement les (choses/caractères) qui ont été ajouté dans le fihcier
+9. La commande git diff nous permet de voir exclusivement les (choses/caractères) qui ont été ajouté dans le fichier
 
-11. 
+11. Le répertoire est vide, il n’y a rien.
+
+12. Les fichiers sont bien arrivés.
 
 EXERCICE 2 : 
+
+2) Cela a créé un répertoire tp1_ex2.git. Il contient les fichiers de toutes les personnes qui ont commit 
+
+3) Sur la branche main
+  Votre branche est à jour avec 'origin/main'. Rien à valider, la copie de travail est propre
+
+4) Le fichier a été créer dans le répertoire tp1_ex2 sur mon bureau
+
+6) Lors du git push cela ne marche pas car le dépôt commun ne marche pas car le dossier commun a été modifié par quelqu'un d'autre entre le commit et le push.
+
+8) Afin de récupérer le contenu dans mon dépôt local, j'ai fait un "git pull", puis "git merge" (cette commande m'as dit que le dépôt local est déjà à jour).
+
+9) Comme il n'y avait pas beaucoup de monde, j'ai pu "git push" mon dépôt local facilement, car sinon j'aurai du faire un autre "git pull" avant.
+
+12) Lors du "git commit", le terminal m'as dit : 2 files changed, 3 insertions(+), 1 deletion(-) 
+Puis, j'ai fait un "git push".   
+
+13) Pas de probème.
+
+14) L'historique permet de voir comment l'arborescence git a évolué avec tous les commits avec les messages, les merges et les différentes modifications.
+
+
+EXERCICE 3 :
+
+1. Le caractère &
+
+2. Le /
+
+3. Les commandes :
+	cd
+	cd ~
+	cd $HOME
+
+4 .Cela affichera le contenu des répertoires situés dans le répertoire personnel de l'utilisateur,
+ comme Documents, Bureau, etc., et listera aussi les fichiers présents directement dans le répertoire personnel (readme.txt, IMG216.jpg, etc., selon l’arborescence donnée en figure 1).
+
+
+
+
+
+5. cp ../TP1/ex2.c et cp ~/Images/IMG216.jpg
+
+
+6. Ajouter le chemin du répertoire qui contient a.out dans la variable PATH.
+
+7. 1 (car il y a une seule ligne de texte)
+
+8. Ajouter 2>/dev/null à la fin de la commande.
+
+9. Le nombre de processus en cours d'exécution qui contiennent le mot "evince" dans leurs informations.
+
+10. chmod g+rw file1
+
+11. Elle va afficher les numéros d'identification des personnes et le statut Non pour celles qui ne sont pas inscrites.
+
 
 
