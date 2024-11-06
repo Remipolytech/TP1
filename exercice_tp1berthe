@@ -60,9 +60,6 @@ EXERCICE 3 :
  comme Documents, Bureau, etc., et listera aussi les fichiers présents directement dans le répertoire personnel (readme.txt, IMG216.jpg, etc., selon l’arborescence donnée en figure 1).
 
 
-
-
-
 5. cp ../TP1/ex2.c et cp ~/Images/IMG216.jpg
 
 
