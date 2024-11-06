@@ -1,0 +1,26 @@
+EXERCICE 1 :
+
+Voici le fichier crée
+
+2 .Le répertoire git. est crée avec plusieurs sous répertoires :
+ 
+HEAD		description	info		refs 
+config		hooks		objects 
+ 
+Il y a 7  répertoires supplémentaires. 
+
+4. git status nous donne le status des fichiers que nous avons ( modifié ou suivi depusi le dernier commit ...)
+ 
+5. Le fichier que nous avons créé est validé mais pas validé. 
+ 
+7. Une fois la commande git commit-m effectué la copie du travail est dite propre. 
+ 
+8. La commande git log –p permet d’avoir un historique des commit réalisée. 
+ 
+9. La commande git diff nous permet de voir exclusivement les (choses/caractères) qui ont été ajouté dans le fihcier
+
+11. 
+
+EXERCICE 2 : 
+
+
